@@ -7,7 +7,6 @@
     android:theme="@style/ThemeOverlay.NotificationAssignment.FullscreenContainer"
     tools:context=".FullscreenActivity">
 
-
     <TextView
         android:id="@+id/text_view"
         android:layout_width="match_parent"

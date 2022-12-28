@@ -23,6 +23,8 @@ class FullscreenActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_fullscreen)
+
         text_view.text = intent.getStringExtra(MainActivity.NOTIFICATION_INTENT_KEY)
     }
 
