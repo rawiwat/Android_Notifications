@@ -13,11 +13,11 @@ import kotlinx.android.synthetic.main.activity_main.*
 class MainActivity : AppCompatActivity() {
     companion object{
         const val NOTIFICATION_ID = 50
+        const val NOTIFICATION_INTENT_KEY = "KEKW"
     }
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
         val context = this
        notification1.setOnClickListener { p0 ->
             //val contentIntent = Intent(context, MainActivity::class.java)
